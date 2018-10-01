@@ -5,3 +5,5 @@ bookmark. When so done, it will scan through the current web page finding all fo
 open a new window that listing all of the forms along with the source content for a bookmarklet 
 that will submit that form with its current data.
 
+Use this to make into a bookmarklet if changed: https://skalman.github.io/UglifyJS-online/
+
