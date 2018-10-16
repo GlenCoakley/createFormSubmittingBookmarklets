@@ -7,3 +7,5 @@ that will submit that form with its current data.
 
 Use this to make into a bookmarklet if changed: https://skalman.github.io/UglifyJS-online/
 
+### Future
+* This could use a FormData object and append() to add inputs to it. This would probably be a shade faster and likely clearer than creating HTML elements.
