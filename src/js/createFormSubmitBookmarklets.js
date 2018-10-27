@@ -24,7 +24,7 @@ function buildBookmark(form) {
   return header + 'javascript:function sf(ur,ty,fd){' + 
     'function me(tg,pr){var el=document.createElement(tg);' + 
     'for(const[nm,vl]of Object.entries(pr)){el.setAttribute(nm,vl);}return el}' + 
-    'const fm=me("form",{action:ur,method:ty});' + 
+    'const fm=me("form",{action:ur,method:ty,style:"display:none"});' + 
     'for(const[nm,vl]of Object.entries(fd)){' +
     'fm.appendChild(me("input",{name:nm, value:vl}))' + 
     '}document.body.appendChild(fm);fm.submit()' + 
